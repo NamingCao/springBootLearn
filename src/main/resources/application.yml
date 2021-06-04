@@ -1,0 +1,19 @@
+---
+server:
+  port: 9966
+spring:
+  profiles: dev
+---
+server:
+  port: 9988
+spring:
+  profiles: test
+---
+server:
+  port: 9999
+spring:
+  profiles: pro
+---
+spring:
+  profiles:
+    active: pro
